@@ -16,7 +16,13 @@ body {
 .container {
   width: 1100px;
   margin: 0 auto;
+  padding-bottom: 100px;
 
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* Header Area CSS */
@@ -48,7 +54,7 @@ body {
   margin-bottom: 20px;
 }
 
-.header-text a {
+.red-anchor {
   display: inline-block;
   text-decoration: none;
   color: #fff;
@@ -56,4 +62,77 @@ body {
   padding: 10px 30px;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+/* Blog Area */
+.blog-area {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-gap: 25px;
+}
+
+.game-schedule {
+  background-color: #000;
+  border-radius: 10px;
+  padding: 25px;
+  height: 260px;
+}
+
+.game-schedule a {
+  display: block;
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  padding: 10px 30px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+.game-schedule .colored-anchor {
+  background-color: #DD0000;
+  color: #fff;
+}
+
+.blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.blog-img img {
+  width: 100%;
+}
+
+.blog-text {
+  padding: 10px;
+}
+
+.blog-text .btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid #161616;
+  border-radius: 5px;
+}
+
+.blog-text p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.blog-text span {
+  font-size: 16px;
+  color: gray;
+}
+
+.blog-text span {
+  margin-right: 30px;
+}
+
+.blog-icons {
+  margin-right: 10px;
 }
